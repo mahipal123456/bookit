@@ -95,6 +95,17 @@ node index.js
 ```bash
 cd ../frontend
 npm install
+```
+
+Create a `.env` file inside the frontend directory:
+
+```
+VITE_API_URL=http://localhost:3000
+```
+
+Run the frontend:
+
+```bash
 npm run dev
 ```
 
@@ -145,4 +156,4 @@ B.Tech Physics, IIT Mandi
 
 ## 📄 License
 
-This project is created for educational  purposes only.
+This project is created for educational purposes only.
